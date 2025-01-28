@@ -1,0 +1,70 @@
+
+.post {
+    width: 700px;
+    background-color: white;
+    }
+    
+    body {
+        background-color: black;
+    }
+    
+    .cajaImg {
+        /* width: 80%; */
+    
+    }
+    
+    .cajaMed {
+        width: 100%;
+        display: flex;
+    }
+    
+    .cajaMed i {
+        font-size: 1.5rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .messi {
+        width: 100%;
+        object-fit: cover;/*prop que ajusta la imagen sin deformarla*/
+    }
+    
+    .cajaSup {
+        /* border: solid 1px black; */
+        display: flex;
+        height: 80px;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .text1 {
+        display: flex;
+        align-items: center;
+    }
+    
+    .cajaSup i {
+        font-size: 2rem;
+        padding: 10px;
+    }
+    
+    .cajaInf {
+        margin: 0px 50px 10px 20px;
+        height: 200px;
+    }
+    .circle {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+    
+    }
+    .logo { 
+        font-size: 50px;
+    }
+    .guardado { 
+        display: flex;
+        margin-left: auto;
+    }
+    
+    *{
+        font-size: 20px;
+    }
